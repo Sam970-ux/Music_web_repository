@@ -19,7 +19,7 @@ let audioElement = new Audio();
 //	ELEMENTS BASED ON CLASS-NAME.
 
 let songItems = Array.from(document.getElementsByClassName('songItem'));
-let timeStamp = Array.from(document.getElementsByClassName('timeStamp'));
+//  let timeStamp = Array.from(document.getElementsByClassName('timeStamp'));
 
 let songPlayImg = Array.from(document.getElementsByClassName('songplayimg'));
 
@@ -33,7 +33,7 @@ let playbutton = document.getElementById('playbtn');
 
 //________________________________________________________________
 // ARRAY CONTAIN INFO ABOUT SONG ITEMS.
-let songs =[{SongName: "lifeStory", filPath:"songs/1.mp3", coverPath:"1.jpg"},{SongName: "rock that", filPath:"songs/2.mp3", coverPath:"2.jpg"},{SongName: "no man", filPath:"songs/3.mp3", coverPath:"3.jpg"},{SongName: "stray", filPath:"songs/4.mp3", coverPath:"4.jpg"}]
+let songs =[{SongName: "lifeStory", filPath:"songs/1.mp3", coverPath:"1.jpg"},{SongName: "Happ morning", filPath:"songs/2.mp3", coverPath:"2.jpg"},{SongName: "Cinematic music", filPath:"songs/3.mp3", coverPath:"3.jpg"},{SongName: "stray", filPath:"songs/4.mp3", coverPath:"4.jpg"}]
 
 // SETTING SONG ITEMS NAME, COVER-IMAGE.
 songItems.forEach((element,i)=>{
@@ -47,7 +47,7 @@ songItems.forEach((element,i)=>{
 //audioElement[i].duration = `songs/${i}.mp3`;
 	//	let songTime =audioElement.duration;
 
-	element.getElementsByClassName('timeStamp')[0].innerText  = audioElement.duration;
+//	element.getElementsByClassName('timeStamp')[0].innerText  = audioElement.duration;
 })
 
 //________________________________________________________________
@@ -123,11 +123,11 @@ myProgressBar.addEventListener('change', ()=>{
 audioElement.currentTime = myProgressBar.value * audioElement.duration / 100 ;
 
 });
-
+/*
 timeStamp.forEach((element)=>{
 element.innerText = parseInt(audioElement.duration);
 
-})
+})*/
 //________________________________________________________________
 // SEEKBAR MENU BUTTONS FUNCTION.
 Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{

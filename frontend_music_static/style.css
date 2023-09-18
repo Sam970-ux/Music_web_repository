@@ -7,13 +7,13 @@ body{
 }
 
 .nav{
-  background-color: black;
+  background-color: #3e0037;
   color: white;
   display: block;
   float: right;
   width: 100%;
   margin-bottom: 55px;
-  height: 155px;
+  height: 185px;
 }
 
 .nav_Items{
@@ -27,7 +27,7 @@ nav ul{
   display: flex;
   list-style: none;
   height: 45px;
-  background-color: black;
+  background-color: #3e0037;
   width: 30%;
   font-size: 19px;
   margin: auto;
@@ -35,17 +35,8 @@ nav ul{
   justify-content: center;
 }
 
-nav ul li{
-padding: 4px;
-color: white;
-display: inline-block;
-margin: 5px;
-}
-
-
-.brand img{
-	width:50px;
-	padding:0px 8px;
+.brand img {
+  width: 99px;
 }
 
 .brand{
@@ -59,7 +50,7 @@ font-weight: bold;
 font-size: 3.3rem;
 text-align: center;
 width: 50%;
-margin: 20px auto;
+margin: 14px auto;
 align-items: center;
 justify-content: center;
 }
@@ -68,19 +59,20 @@ justify-content: center;
 	color:white;
 }
 
-nav ul li
- {
-  padding: 4px;
+nav ul li {
   color: white;
   display: inline-block;
   margin: 10px;
-
+  background-color: #86006b;
+  padding: 7px 23px;
+  border: 2px solid white;
+  border-radius: 17px;
 }
 
 
 .container{
 	display:flex;
-	background-color:black;
+	background-color:#3e0037;
 	color:white;
 	margin:20px auto;
 	border:2px solid black;
@@ -92,17 +84,16 @@ nav ul li
 	
 }
 
-.bottom{
-	display:flex;
-	position:sticky;
-	height:100px;
-	background-color:black;
-	color:white;
-	bottom:0;
-	
-	justify-content:center;
-	align-items:center;
-	flex-direction:column;
+.bottom {
+  display: flex;
+  position: sticky;
+  height: 100px;
+  background-color: #08001e;
+  color: white;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .songItemContainer{
@@ -126,6 +117,7 @@ nav ul li
 	margin:0 23px;
 	border:1px solid black;
 	border-radius:27px;
+	width: 74px;
 }
 
 .far{

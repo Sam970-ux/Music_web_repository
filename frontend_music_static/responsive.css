@@ -17,9 +17,6 @@ margin: auto;
 }
 
 nav ul li {
-  padding: 2px;
-  color: white;
-  display: inline-block;
   margin-top: 15px;
 }
 
@@ -55,7 +52,7 @@ float: right;
 }
 
 
-@media only screen and (min-width:250px) and (max-width:389px) and (orientation: portrait){
+@media only screen and (min-width:100px) and (max-width:389px) and (orientation: portrait){
 	
 .brand {
 font-size: 2rem;
@@ -72,10 +69,8 @@ font-size: 1rem;
 }
 
 nav ul li {
-  padding: 2px;
-  color: white;
-  display: inline-block;
   margin: 2% auto;
+  padding: 7px 12px;
 }
 
 	.container {
